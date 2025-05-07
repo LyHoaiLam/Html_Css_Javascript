@@ -4,21 +4,26 @@
         <meta charset="UTF-8">
         <title>Animation-Hover-Text01</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Give+You+Glory&family=Instrument+Serif:ital@0;1&family=Playball&family=Playwrite+VN:wght@100..400&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Give+You+Glory&family=Instrument+Serif:ital@0;1&family=Playball&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
         <style>
             body {
-                font-family: "Annie Use Your Telescope", serif;
+                display: flex;
+                justify-content: center;
                 display: grid;
                 justify-content: center;
+                font-family: "Annie Use Your Telescope", serif;
             }
 
             .title {
-                display: flex;
-                justify-content: center;
+                margin-top: 150px;
                 font-size: 35px;
+                color: black;
+                text-align: center;
+            }
+
+            .container {
+                margin-top: 100px;
             }
 
             .hover-underline-animation {
@@ -80,13 +85,7 @@
             }
 
             h3 {
-                font-size: 18px;
-                width: 64px;
-                text-align: right;
-            }
-
-            h2 {
-                font-size: 24px;
+                font-size: 20px;
             }
 
             p {
@@ -95,22 +94,21 @@
             }
         </style>
     </head>
-
 <body>
-    <div>
-        <h1 class="title">Great thief</h1>
+    <h1 class="title">Great thief</h1>
+    <div class="container">
         <div>
-            <h3>repositorys:</h3>
+            <h3>Repositorys Left:</h3>
             <p class="hover-underline-animation left">https://github.com/LyHoaiLam/Html_Css_Javascript</p>
         </div>
 
         <div>
-            <h3>repositorys:</h3>
+            <h3>Repositorys Center:</h3>
             <p class="hover-underline-animation center">https://github.com/LyHoaiLam/Html_Css_Javascript</p>
         </div>
 
         <div>
-            <h3>repositorys:</h3>
+            <h3>Repositorys Right:</h3>
             <p class="hover-underline-animation right">https://github.com/LyHoaiLam/Html_Css_Javascript</p>
         </div>
     </div>
